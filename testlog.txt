@@ -1,0 +1,35 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SpecFlowFeatureFiles: Features/Login.feature
+  -> Using default config
+  SpecFlowGeneratedFiles: Features/Login.feature.cs
+  AutomationTests -> /Users/nhanvo/Desktop/GitRepo/BDD Specflow/TDD-Course-Current/TDD-Course/SpecFlowSeleniumProject/AutomationTests/bin/Debug/net9.0/AutomationTests.dll
+Test run for /Users/nhanvo/Desktop/GitRepo/BDD Specflow/TDD-Course-Current/TDD-Course/SpecFlowSeleniumProject/AutomationTests/bin/Debug/net9.0/AutomationTests.dll (.NETCoreApp,Version=v9.0)
+VSTest version 17.12.0 (arm64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+/Users/nhanvo/Desktop/GitRepo/BDD Specflow/TDD-Course-Current/TDD-Course/SpecFlowSeleniumProject/AutomationTests/bin/Debug/net9.0/AutomationTests.dll
+NUnit Adapter 5.2.0.0: Test execution started
+Running all tests in /Users/nhanvo/Desktop/GitRepo/BDD Specflow/TDD-Course-Current/TDD-Course/SpecFlowSeleniumProject/AutomationTests/bin/Debug/net9.0/AutomationTests.dll
+   NUnit3TestExecutor discovered 2 of 2 NUnit test cases using Current Discovery mode, Non-Explicit run
+Given I open Google page
+-> done: LoginSteps.GivenIOpenGooglePage() (0.9s)
+Then I should see Google title
+-> done: LoginSteps.ThenIShouldSeeGoogleTitle() (0.0s)
+
+NUnit Adapter 5.2.0.0: Test execution complete
+  Passed OpenGooglePage [2 s]
+  Standard Output Messages:
+ Given I open Google page
+ -> done: LoginSteps.GivenIOpenGooglePage() (0.9s)
+ Then I should see Google title
+ -> done: LoginSteps.ThenIShouldSeeGoogleTitle() (0.0s)
+
+
+  Passed Test1 [9 ms]
+
+Test Run Successful.
+Total tests: 2
+     Passed: 2
+ Total time: 3.0307 Seconds
